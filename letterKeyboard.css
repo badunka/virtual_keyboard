@@ -1,0 +1,88 @@
+/* keyboard  */
+.transparent-element{
+  display: none;
+}
+.use-letterKeyboard-input{
+  width: 99%;
+  height: 150px;
+  font-size: 25px;
+  text-align: center;
+}
+  .letterKeyboard {
+      position: absolute;
+      z-index: 15555;
+      width: 1100px;
+      border-radius: 10px;
+      padding: 8px 5px 5px 5px;
+      background: #DDDDDD;
+      box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+      user-select: none;
+      transition: bottom 0.4s;
+      top:250px;
+      left: 20%
+    }
+    
+    .letterKeyboard--hidden {
+      display: none;
+    }
+    
+    .letterKeyboard__keys {
+      text-align: center;
+    }
+    
+    .letterKeyboard__key {
+      height: 65px;
+      width: 65px;
+      margin: 3px;
+      border-radius: 4px;
+      background: #C4C4C4;
+      color: #000000;
+      font-size: 1.5rem;
+      outline: none;
+      /* display: inline-flex; */
+      align-items: center;
+      justify-content: center;
+      vertical-align: top;
+      padding: 0;
+      position: relative;
+    }
+    
+    .letterKeyboard__key:active {
+      background: rgba(255, 255, 255, 0.12);
+    }
+    
+    .letterKeyboard__key--wide {
+      width: 15%;
+    }
+    .letterKeyboard__key--wide-number {
+      width: 150px;
+      height: 66px;
+    }
+    .letterKeyboard__key--extra-wide {
+      width: 36%;
+      max-width: 500px;
+    }
+    .enter{
+      width: 260px;
+    }
+
+    .letterKeyboard__key--dark {
+      background: rgba(0, 0, 0, 0.25);
+    }
+    .letterKeyboardInput {
+      width: 1080px;
+      height: 85px;
+      margin: auto;
+      margin-bottom: 7px;
+      border-radius: 10px;
+      text-align: end;
+      line-height: 65px;
+      font-size: 1.8rem;
+      background: #EBEBEB;
+  }
+  .letterKeyboard__key--activatable {
+    background-color: #87c47b;
+  }
+  .letterKeyboard__key--disActivatable {
+    background-color: #c4c4c4;
+  }
